@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class FormularioCadastro extends JFrame {
 
-    // Criando os campos que vamos usar
+    
     JTextField tfCpfCnpj, tfRg, tfOrgao, tfEmail, tfCep, tfUf, tfMunicipio;
     JTextField tfLogradouro, tfNumero, tfComplemento, tfBairro, tfTelefone;
     JComboBox<String> cbTipo;
