@@ -20,7 +20,10 @@ public class FormularioCadastro extends JFrame {
 
         // Painel principal
         JPanel painel = new JPanel();
-        painel.setLayout(new GridLayout(10, 1));
+        painel.setLayout(new GridLayout(11, 1));
+        
+        
+
 
         // Tipo, CPF/CNPJ, Fornecedor
         JPanel linha1 = new JPanel();
@@ -99,7 +102,9 @@ public class FormularioCadastro extends JFrame {
         // Botões
         JPanel linha9 = new JPanel();
         JButton btnCadastrar = new JButton("Confirmar");
+        btnCadastrar.setBackground(Color.ORANGE);
         JButton btnExcluir = new JButton("Excluir");
+        btnExcluir.setBackground(Color.ORANGE);
         JButton btnLimpar = new JButton("Limpar");
         linha9.add(btnCadastrar);
         linha9.add(btnExcluir);
